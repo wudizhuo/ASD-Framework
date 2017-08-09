@@ -1,4 +1,4 @@
-package src.Strategy;
+package Strategy;
 
 import java.sql.Connection;
 

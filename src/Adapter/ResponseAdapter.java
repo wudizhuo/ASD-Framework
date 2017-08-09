@@ -1,4 +1,4 @@
-package src.Adapter;
+package Adapter;
 
 import javax.servlet.http.HttpServletResponse;
 

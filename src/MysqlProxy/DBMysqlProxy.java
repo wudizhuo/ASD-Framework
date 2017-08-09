@@ -1,4 +1,4 @@
-package src.MysqlProxy;
+package MysqlProxy;
 
 import java.sql.Connection;
 

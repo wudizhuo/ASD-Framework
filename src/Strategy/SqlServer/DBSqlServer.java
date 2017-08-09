@@ -1,6 +1,6 @@
-package src.Strategy.SqlServer;
+package Strategy.SqlServer;
 
-import src.Strategy.DBStrategy;
+import Strategy.DBStrategy;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

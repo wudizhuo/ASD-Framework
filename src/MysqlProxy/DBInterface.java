@@ -1,6 +1,6 @@
-package src.MysqlProxy;
+package MysqlProxy;
 
-import src.Strategy.DBStrategy;
+import Strategy.DBStrategy;
 
 public interface DBInterface extends DBStrategy{
 }
