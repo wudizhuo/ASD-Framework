@@ -1,4 +1,4 @@
-package src.Adapter;
+package ASDFramework.src.Adapter;
 
 public interface ResponseTarget {
 }

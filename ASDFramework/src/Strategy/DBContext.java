@@ -1,6 +1,6 @@
-package src.Strategy;
+package ASDFramework.src.Strategy;
 
-import src.MysqlProxy.DBMysqlProxy;
+import ASDFramework.src.MysqlProxy.DBMysqlProxy;
 
 import java.sql.Connection;
 

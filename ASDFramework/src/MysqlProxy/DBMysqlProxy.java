@@ -1,4 +1,4 @@
-package src.MysqlProxy;
+package ASDFramework.src.MysqlProxy;
 
 import java.sql.Connection;
 

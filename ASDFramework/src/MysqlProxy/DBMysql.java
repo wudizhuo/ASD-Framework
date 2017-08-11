@@ -1,15 +1,13 @@
-package Strategy.SqlServer;
-
-import Strategy.DBStrategy;
+package ASDFramework.src.MysqlProxy;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 
-public class DBSqlServer implements DBStrategy {
-    private String dbUrl = "jdbc:sqlserver://localhost:3306/db_xsxk";
+public class DBMysql implements DBInterface {
+    private String dbUrl = "jdbc:mysql://localhost:3306/db_xsxk";
     private String dbUserName = "root";
     private String dbPassword = "123456";
-    private String jdbcName = "com.microsoft.sqlserver.jdbc.SQLServerDriver";
+    private String jdbcName = "com.mysql.jdbc.Driver";
 
     @Override
     public Connection getCon() throws Exception {
