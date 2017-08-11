@@ -1,9 +1,9 @@
-package MysqlProxy;
+package src.MysqlProxy;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 
-public class DBMysql implements MysqlProxy.DBInterface {
+public class DBMysql implements DBInterface {
     private String dbUrl = "jdbc:mysql://localhost:3306/db_xsxk";
     private String dbUserName = "root";
     private String dbPassword = "123456";

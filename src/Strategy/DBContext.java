@@ -1,12 +1,12 @@
-package Strategy;
+package src.Strategy;
 
-import MysqlProxy.DBMysqlProxy;
+import src.MysqlProxy.DBMysqlProxy;
 
 import java.sql.Connection;
 
 public class DBContext {
 
-    private final Strategy.DBStrategy dbStrategy;
+    private final DBStrategy dbStrategy;
 
     public DBContext(DBMysqlProxy dbStrategy) {
         this.dbStrategy = dbStrategy;

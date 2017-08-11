@@ -1,4 +1,4 @@
-package Adapter;
+package src.Adapter;
 
 public interface ResponseTarget {
 }
