@@ -1,6 +1,6 @@
 package ASDFramework.src.Strategy.SqlServer;
 
-import Strategy.DBStrategy;
+import ASDFramework.src.Strategy.DBStrategy;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
