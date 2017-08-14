@@ -4,9 +4,6 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-/**
- * Created by hongleyou on 2017/8/12.
- */
 public class TAggregate<T> implements IAggregate<T> {
     private List<T> list = new ArrayList<>();
     @Override

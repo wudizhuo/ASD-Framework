@@ -3,9 +3,6 @@ package ASDFramework.src.Iterator;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by hongleyou on 2017/8/12.
- */
 public class TIterator<T> implements IIterator<T> {
     private List<T> list = new ArrayList<T>();
     private int cursor = 0;
