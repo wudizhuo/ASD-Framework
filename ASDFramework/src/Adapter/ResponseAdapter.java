@@ -12,6 +12,7 @@ public class ResponseAdapter implements ResponseTarget {
         response.setContentType("text/html;charset=utf-8");
     }
 
+    @Override
     public void write(Object o) throws Exception {
         this.response.getWriter().println(o.toString());
         this.response.getWriter().flush();
